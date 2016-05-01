@@ -172,6 +172,19 @@ pre {
     }
 }
 
+/**
+ * Header Wrapper
+ */
+.header-wrapper {
+    background-image: url($header-background);
+    background-repeat: repeat-x;
+    @extend %clearfix;
+}
+
+.center-img { 
+    margin: auto;
+    display: block;
+}
 
 
 /**
