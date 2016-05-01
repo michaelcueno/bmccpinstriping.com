@@ -4,12 +4,36 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Custom Pinstriping 
+=====================================
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+All Pinstriping is free hand, not masked, a true, old-school quality. 
+Designs can be any style, color or size. We can match any other style of stripes or
+lettering. All striping comes with a lifetime guarantee
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Custom Lettering 
+=====================================
+All lettering is painted freehand in any color, font or size. The unique quality
+and craftsmanship of hand painted lettering will always surpass the standardized,
+uniform look of a computerized image.
+
+Guilding 
+=====================================
+Guilding is done by using Goldleaf to add to the unique style to pinstripes or
+lettering. Guilding can be done in Goldleaf, Silverleaf, Copperleaf or Verigated leaf.
+
+Airbrushing 
+=====================================
+Airbrushing techniques can be used to paint custom murals and add
+shadows or accents to any artwork or lettering.
+
+More Info 
+=====================================
+Hand painted artwork is especially owner friendly due to the smooth finish.
+Paint edges are almost non-existent due to the free hand flow of paint. Painted
+artwork becomes part of the paint job and is the highest quality for both looks
+and feel. There is no sharp edge created by masking tape or the edge associated
+with a glue on vinyl decal, which both collect wax and dirt. All artwork is painted
+using "Sign Painters One Shot" lettering enamel which is extremely durable, yet
+can later be removed at anytime with no damage to original base paint.
+
