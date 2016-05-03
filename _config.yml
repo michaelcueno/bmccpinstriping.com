@@ -13,6 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   in the Chicago land area for over 35 years. His experience and expertise 
   has satisifed countless customers with projects requiring gold leafing, 
   sign painting, pinstriping, decaling and much more. 
+copyright: "Copyright @ 2016 - All rights reserved"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://bmccpinstriping.com" 
 
