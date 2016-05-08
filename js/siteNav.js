@@ -14,7 +14,12 @@ $(function() {
     $w.scroll(function() {
         var scrollTop = $w.scrollTop();
         var shouldBeFixed = scrollTop > navHomeY;
+        var navHomeHeight = nav.height();
+        var pageContent = $(".page-content");
         if (shouldBeFixed && !isFixed) {
+            pageContent.css({
+                'margin-top': navHomeHeight
+            });
             nav.css({
                 position: 'fixed',
                 top: 0,
@@ -26,6 +31,9 @@ $(function() {
         }
         else if (!shouldBeFixed && isFixed)
         {
+            pageContent.css({
+                'margin-top': 0
+            });
             nav.css({
                 position: 'static'
             });

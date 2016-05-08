@@ -3,11 +3,14 @@
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    min-height: 50px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+}
+
+#site-nav-main {
+    z-index: 9999999;
 }
 
 .site-title {
@@ -28,6 +31,7 @@
     display: inline-block;
     margin:auto;
     line-height: 56px;
+    background-color: $background-color;
 
     .menu-icon {
         display: none;
@@ -47,7 +51,6 @@
         position: absolute;
         right: $spacing-unit / 2;
         margin-top:20px; 
-        background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
