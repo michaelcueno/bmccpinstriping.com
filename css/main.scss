@@ -15,6 +15,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
+$link-color:       #fff;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
@@ -51,6 +52,5 @@ $header-background:  "/images/background.jpg";
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout",
-        "syntax-highlighting"
+        "layout"
 ;

@@ -11,6 +11,9 @@
 
 #site-nav-main {
     z-index: 9999999;
+    @media (min-width:$on-palm) {
+        background-image: url('/images/nav/bg.gif');
+    }
 }
 
 .site-title {
@@ -31,14 +34,13 @@
     display: inline-block;
     margin:auto;
     line-height: 56px;
-    background-color: $background-color;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: $link-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -47,7 +49,10 @@
         }
     }
 
+
+
     @include media-query($on-palm) {
+        background-color: $background-color;
         position: absolute;
         right: $spacing-unit / 2;
         margin-top:20px; 
