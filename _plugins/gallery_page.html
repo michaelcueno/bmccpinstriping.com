@@ -21,8 +21,10 @@ layout: gallery_page_layout
   box-shadow: 4px 4px 5px #aaa;
 }
 </style>
-<h1><a href="/{{ site.gallery.dir }}">{{ page.title }}</a></h1>
+{% include gallery_nav.html %}
+<br>
 <hr />
+<br>
 {% for image in page.images %}
     <div class="gallery-image-wrapper">
         <a name="{{ image }}"></a>
