@@ -105,14 +105,13 @@ module Jekyll
       self.read_yaml(File.dirname(gallery_page), File.basename(gallery_page))
       self.data["gallery"] = gallery_name
       self.data['tag'] = "gallery_page"
-      gallery_title_prefix = config["title_prefix"] || "Photos: "
       gallery_name = gallery_name.gsub("_", " ").gsub(/\w+/) {|word| word.capitalize}
       begin
         gallery_name = gallery_config["name"] || gallery_name
       rescue
       end
       self.data["name"] = gallery_name
-      self.data["title"] = "#{gallery_title_prefix}#{gallery_name}"
+      self.data["title"] = "#{gallery_name}"
       thumbs_dir = File.join(site.dest, @dest_dir, "thumbs")
       begin
         @hidden = gallery_config["hidden"] || false

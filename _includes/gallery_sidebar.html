@@ -1,0 +1,24 @@
+<style TYPE="text/css">
+.gallery-sidebar-wrapper {
+  text-align: center;
+  width: 300px;
+  display: inline-block;
+  margin: 2em;
+}
+.gallery-sidebar-image {
+  max-height: 14em;
+  max-width: 14em;
+  border: 5px solid #3e2b14;
+  padding: 2px;
+  box-shadow: 8px 8px 10px #aaa;
+}
+</style>
+<h1>sidebar</h1>
+{% for gallery in page.galleries %}
+<div class="gallery-sidebar-wrapper">
+    <a href="{{ gallery['gallery'] }}">
+        <img class="gallery-sidebar-image" src="{{ gallery['gallery'] }}/thumbs/{{ gallery['best_image'] }}">
+    </a>
+    <h3><a href="{{ gallery['gallery'] }}">{{ gallery["name"] }}</a></h3>
+</div>
+{% endfor %}
