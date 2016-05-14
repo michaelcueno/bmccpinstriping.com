@@ -1,23 +1,26 @@
 <style TYPE="text/css">
 .gallery-sidebar-wrapper {
   text-align: center;
-  width: 300px;
   display: inline-block;
-  margin: 2em;
+  margin: 1em;
 }
 .gallery-sidebar-image {
-  max-height: 14em;
-  max-width: 14em;
-  border: 5px solid #3e2b14;
-  padding: 2px;
+  max-height: 7em;
+  max-width: 7em;
+  border: 3px solid #3e2b14;
+  padding: 1px;
   box-shadow: 8px 8px 10px #aaa;
 }
 </style>
-<h1>sidebar</h1>
-{% for gallery in page.galleries %}
+<h1>Galleries</h1>
+{% for page in site.pages %}
+  {% if page.tag == 'gallery_index'%}
+    {% for gallery in page.galleries %}
 <div class="gallery-sidebar-wrapper">
-    <a href="{{ gallery['gallery'] }}">
-        <img class="gallery-sidebar-image" src="{{ gallery['gallery'] }}/thumbs/{{ gallery['best_image'] }}">
+    <a href="/gallery/{{ gallery['gallery'] }}">
+        <img class="gallery-sidebar-image" src="/gallery/{{ gallery['gallery'] }}/thumbs/{{ gallery['best_image'] }}">
     </a>
 </div>
+    {% endfor %}
+  {% endif %}
 {% endfor %}

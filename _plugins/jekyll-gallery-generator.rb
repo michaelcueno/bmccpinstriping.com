@@ -48,6 +48,7 @@ module Jekyll
       self.read_yaml(File.dirname(gallery_index), File.basename(gallery_index))
       self.data["title"] = config["title"] || "Photos"
       self.data["galleries"] = []
+      self.data["tag"] = "gallery_index"
       begin
         sort_field = config["sort_field"] || "date_time"
         galleries.sort! {|a,b| b.data[sort_field] <=> a.data[sort_field]}
