@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Services
-permalink: /services/
+permalink: /services.html
 ---
 
 New Car Dealerships
