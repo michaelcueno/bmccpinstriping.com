@@ -24,6 +24,20 @@ hr.stripe {
     text-align: center;
 }
 
+.header-col-side h1 {
+    color: $header-dark-grey-color;
+    font-size: $h1-header-size;
+}
+
+.header-col-side span {
+    text-decoration: underline;
+}
+
+.header-col-side h2 {
+    color: $header-grey-color;
+    font-size: $h2-header-size;
+}
+
 /**
  * Basic styling
  */
@@ -124,7 +138,6 @@ a {
 
 a.no-style {
     color: $text-color;
-    text-decoration: underline;
 }
 
 
@@ -198,6 +211,11 @@ pre {
 
 .page-content {
     text-align:left;
+}
+
+.page-content h1 {
+    font-family: Artbrush;
+    font-size:2em;
 }
 
 /**

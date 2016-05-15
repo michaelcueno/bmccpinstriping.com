@@ -20,8 +20,12 @@ $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
+$header-grey-color:            #757575;
+$header-dark-grey-color:       #424242; 
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+$h1-header-size:   1.8em;
+$h2-header-size:   1.3em;
 
 // Width of the content area
 $header-width:     1000px;
