@@ -31,6 +31,38 @@
     width:         calc(33% - (#{$spacing-unit} / 2));   
 }
 
+/*******************
+ *   GALLERY 
+ ******************/
+.gallery-wrapper {
+  display: inline-block;
+  margin: 2em;
+}
+
+.gallery-best-image{
+  max-height: 20em;
+  max-width: 20em;
+  border: 5px solid #3e2b14;
+  padding: 2px;
+  box-shadow: 8px 8px 10px #aaa;
+}
+
+.gallery-image-wrapper {
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  margin: 1em;
+}
+.gallery-image {
+  margin: auto;
+  top: 0px;
+  bottom: 0px;
+  max-height: 100%;
+  max-width: 100%;
+  border: 3px solid #3e2b14;
+  padding: 0px;
+  box-shadow: 4px 4px 5px #aaa;
+}
 
 
 @include media-query($header-min) {
