@@ -126,6 +126,10 @@ module Jekyll
       date_times = {}
       Dir.foreach(dir) do |image|
         next if image.chars.first == "."
+        if image.downcase().end_with?(*".txt")
+          self.data["description"] = File.open(File.join(dir,image)).read()
+          next
+        end
         next unless image.downcase().end_with?(*$image_extensions)
         @images.push(image)
         best_image = image
