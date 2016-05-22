@@ -126,7 +126,6 @@
         background-color: $background-color;
         position: absolute;
         right: $spacing-unit / 2;
-        margin-top:20px; 
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
@@ -180,7 +179,7 @@
 .gallery-nav {
     background-image: url('/images/nav/gal_nav_fill.gif');
     background-repeat: repeat-x;
-    line-height: 67px;
+    line-height: 59px;
     width:100%;
 }
 
@@ -204,9 +203,18 @@
    .gallery-nav-left, .gallery-nav-right {
     display: none;
    }
-   .gallery-link {
-    border-left-image: url('/images/nav/gal_nav_left.gif');
+   .gallery-nav {
+    background-image: none;
    }
+   .gallery-link {
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+
+        border: 5px solid #4C617E;
+        padding:.5em;
+        background-color:#C0CBD9;
+    }
 }
 
 a.gallery-link {
