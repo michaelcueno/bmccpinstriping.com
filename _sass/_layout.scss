@@ -120,6 +120,11 @@
         }
     }
 
+    .active {
+        color: $grey-color-light;
+        text-decoration: underline;
+    }
+
 
 
     @include media-query($on-palm) {
