@@ -362,6 +362,37 @@ a.gallery-link {
     text-align:center
 }
 
+.gallery-sidebar-image-text {
+    display:none;
+}
+
+.gallery-sidebar-image-text :hover {
+    // don't know what to do here...
+}
+
+.gallery-sidebar-wrapper {
+    text-align: center;
+    display: inline-block;
+    margin: 1em;
+}
+
+.gallery-sidebar-image {
+    max-height: 7em;
+    max-width: 7em;
+    border: 3px solid #3e2b14;
+    padding: 1px;
+    box-shadow: 8px 8px 10px #aaa;
+          -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.gallery-sidebar-image:hover {
+    // Don't know what to do here...
+}
+
 .post-content {
     margin-bottom: $spacing-unit;
     text-align: left;
