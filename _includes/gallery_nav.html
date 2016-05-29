@@ -1,13 +1,50 @@
 <div class="gallery-nav-wrapper">
 <img class="gallery-nav-left" src="/images/nav/gal_nav_left.gif">
 <nav class = "gallery-nav">
-  <a class="gallery-link" href="/gallery/commercial">Commercial</a>
-  <a class="gallery-link" href="/gallery/customs">Custom</a>
-  <a class="gallery-link" href="/gallery/gold_leaf">Gold Leaf</a>
-  <a class="gallery-link" href="/gallery/motorcycles">Motorcycles</a>
-  <a class="gallery-link" href="/gallery/signs">Signs</a>
+
+
+{% if page.url contains 'stripes' %}
+  <a class="gallery-link active-gallery-link" href="/gallery/stripes">Stripes</a>
+{% else %}
   <a class="gallery-link" href="/gallery/stripes">Stripes</a>
+{% endif %}
+
+{% if page.url contains 'motorcycles' %}
+  <a class="gallery-link active-gallery-link" href="/gallery/motorcycles">Motorcycles</a>
+{% else %}
+  <a class="gallery-link" href="/gallery/motorcycles">Motorcycles</a>
+{% endif %}
+
+{% if page.url contains 'customs' %}
+  <a class="gallery-link active-gallery-link" href="/gallery/customs">Custom</a>
+{% else %}
+  <a class="gallery-link" href="/gallery/customs">Custom</a>
+{% endif %}
+
+{% if page.url contains 'signs' %}
+  <a class="gallery-link active-gallery-link" href="/gallery/signs">Signs</a>
+{% else %}
+  <a class="gallery-link" href="/gallery/signs">Signs</a>
+{% endif %}
+
+{% if page.url contains 'vintage' %}
+  <a class="gallery-link active-gallery-link" href="/gallery/vintage">Vintage</a>
+{% else %}
   <a class="gallery-link" href="/gallery/vintage">Vintage</a>
+{% endif %}
+
+{% if page.url contains 'commercial' %}
+  <a class="gallery-link active-gallery-link" href="/gallery/commercial">Commercial</a>
+{% else %}
+  <a class="gallery-link" href="/gallery/commercial">Commercial</a>
+{% endif %}
+
+{% if page.url contains 'gold_leaf' %}
+  <a class="gallery-link active-gallery-link" href="/gallery/gold_leaf">Gold Leaf</a>
+{% else %}
+  <a class="gallery-link" href="/gallery/gold_leaf">Gold Leaf</a>
+{% endif %}
+
 </nav>
 <img class="gallery-nav-right" src="/images/nav/gal_nav_right.gif">
 </div>
