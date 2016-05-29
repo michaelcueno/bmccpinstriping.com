@@ -411,6 +411,16 @@ a.gallery-link {
           transition: all 1s ease;
 }
 
+@include media-query($on-palm) {
+    .gallery-sidebar-image {
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .gallery-sidebar-image-text {
+        display: block;
+    }
+}
+
 .gallery-sidebar-image:hover {
     // Don't know what to do here...
 }
