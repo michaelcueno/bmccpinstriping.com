@@ -27,7 +27,7 @@ gallery:
   title: "Gallery"
   # field to control sorting of galleries for the index page
   # (possible values are: title, date_time, best_image)
-  sort_field: "title"
+  sort_field: "order"
   # sizes for thumbnails
   thumbnail_size:
     x: 400

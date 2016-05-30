@@ -51,7 +51,7 @@ module Jekyll
       self.data["tag"] = "gallery_index"
       begin
         sort_field = config["sort_field"] || "date_time"
-        galleries.sort! {|a,b| b.data[sort_field] <=> a.data[sort_field]}
+        galleries.sort! {|a,b| a.data[sort_field] <=> b.data[sort_field]}
       rescue Exception => e
         puts "Error sorting galleries: #{e}"
         puts e.backtrace
@@ -128,6 +128,10 @@ module Jekyll
         next if image.chars.first == "."
         if image.downcase().end_with?(*".txt")
           self.data["description"] = File.open(File.join(dir,image)).read()
+          next
+        end
+        if image.downcase().end_with?(*"order")
+          self.data["order"] = File.open(File.join(dir,image)).read()
           next
         end
         next unless image.downcase().end_with?(*$image_extensions)
