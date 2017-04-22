@@ -40,5 +40,13 @@ $(function() {
             isFixed = false;
         }
     });
+
+    // Register on click to toggle trigger for mobile (600px) 
+    function toggleTrigger() {  
+        if (screen.width <= 600) { 
+            $(".trigger").toggle();
+        }
+    }
+    $(".menu-icon")[0].onclick = toggleTrigger; 
 });
 
