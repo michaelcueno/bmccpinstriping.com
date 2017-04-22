@@ -13,7 +13,7 @@ $(function() {
 
     $w.scroll(function() {
         var scrollTop = $w.scrollTop();
-        var shouldBeFixed = scrollTop > navHomeY;
+        var shouldBeFixed = scrollTop >= navHomeY - 20;
         var navHomeHeight = nav.height();
         var pageContent = $(".page-content");
         if (shouldBeFixed && !isFixed) {
@@ -22,7 +22,7 @@ $(function() {
             });
             nav.css({
                 position: 'fixed',
-                top: 0,
+                top: 20,
                 left: 0,
                 right: 0,
                 width: nav.width()
