@@ -42,10 +42,11 @@ $(function() {
     });
 
     // Register on click to toggle trigger for mobile (600px) 
-    function toggleTrigger() {  
+    function toggleTrigger(event) {  
         if (screen.width <= 600) { 
             $(".trigger").toggle();
         }
+        event.preventDefault();
     }
     $(".menu-icon")[0].onclick = toggleTrigger; 
 });
