@@ -123,8 +123,16 @@ h1.artbrush {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $text-color;
     text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+a.highlight {
+    color: $brand-color;
 
     &:visited {
         color: darken($brand-color, 15%);
@@ -136,12 +144,9 @@ a {
     }
 }
 
-a.no-style {
-    color: $text-color;
-}
-
 .phone-number {
     font-family: $base-font-family;
+    white-space: nowrap;
 }
 
 

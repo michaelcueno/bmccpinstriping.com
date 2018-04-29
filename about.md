@@ -4,25 +4,25 @@ title: About
 permalink: /about.html
 ---
 
-Custom Pinstriping 
+[Custom Pinstriping](/gallery/Stripes)
 =====================================
 
 All Pinstriping is free hand, not masked, a true, old-school quality. 
 Designs can be any style, color or size. We can match any other style of stripes or
 lettering. All striping comes with a lifetime guarantee
 
-Custom Lettering 
+[Custom Lettering](/gallery/Signs)
 =====================================
 All lettering is painted freehand in any color, font or size. The unique quality
 and craftsmanship of hand painted lettering will always surpass the standardized,
 uniform look of a computerized image.
 
-Guilding 
+[Guilding](/gallery/Guilding)
 =====================================
 Guilding is done by using Goldleaf to add to the unique style to pinstripes or
 lettering. Guilding can be done in Goldleaf, Silverleaf, Copperleaf or Verigated leaf.
 
-Airbrushing 
+[Airbrushing](/gallery/Customs)
 =====================================
 Airbrushing techniques can be used to paint custom murals and add
 shadows or accents to any artwork or lettering.
