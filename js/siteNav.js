@@ -43,7 +43,7 @@ $(function() {
 
     // Register on click to toggle trigger for mobile (600px) 
     function toggleTrigger(event) {  
-        if (screen.width <= 600) { 
+        if (window.innerWidth <= 600) { 
             $(".trigger").toggle();
         }
         event.preventDefault();
