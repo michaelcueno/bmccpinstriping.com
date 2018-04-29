@@ -16,13 +16,14 @@ $(function() {
         var shouldBeFixed = scrollTop >= navHomeY - 20;
         var navHomeHeight = nav.height();
         var pageContent = $(".page-content");
+        var topMargin = (window.innerWidth > 600) ? 0 : 20;
         if (shouldBeFixed && !isFixed) {
             pageContent.css({
                 'margin-top': navHomeHeight
             });
             nav.css({
                 position: 'fixed',
-                top: 20,
+                top: topMargin,
                 left: 0,
                 right: 0,
                 width: nav.width()
