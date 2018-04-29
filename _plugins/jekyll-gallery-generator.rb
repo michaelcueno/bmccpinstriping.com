@@ -192,9 +192,7 @@ module Jekyll
             date_times[a] <=> date_times[b]
           end
         }
-        if gallery_config["sort_reverse"]
-          @images.reverse!
-        end
+        @images.reverse!
       rescue Exception => e
         puts "Error sorting images in gallery #{gallery_name}: #{e}"
         puts e.backtrace
