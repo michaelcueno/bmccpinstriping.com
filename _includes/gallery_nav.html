@@ -15,6 +15,12 @@
   <a class="gallery-link" href="/gallery/Motorcycles">Motorcycles</a>
 {% endif %}
 
+{% if page.url contains 'Murals' %}
+  <a class="gallery-link active-gallery-link" href="/gallery/Murals">Murals</a>
+{% else %}
+  <a class="gallery-link" href="/gallery/Murals">Murals</a>
+{% endif %}
+
 {% if page.url contains 'Boats' %}
   <a class="gallery-link active-gallery-link" href="/gallery/Boats">Boats</a>
 {% else %}
