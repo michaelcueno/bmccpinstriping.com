@@ -31,6 +31,14 @@
     width:         calc(33% - (#{$spacing-unit} / 2));   
 }
 
+.header-col-on-palm {
+    display:none;
+    text-align: center;
+    font-size: 12px;
+    line-height: .7;
+    color: $grey-color;
+}
+
 /*******************
  *   GALLERY 
  ******************/
@@ -85,6 +93,9 @@
     }
     .header-col-side {
         display:none;
+    }
+    .header-col-on-palm {
+        display:block;
     }
 }
 
