@@ -28,6 +28,21 @@ layout: page
   </div>
 </div>
 
+<script>
+
+$(document).ready(() => {
+  const popover = document.getElementById('fullscreenPopover');
+
+  // Show the popover
+  popover.style.display = 'flex';
+
+  // Hide the popover after 2 seconds
+  setTimeout(function() {
+   popover.classList.add('fade-out');
+  }, 2000);
+});
+</script>
+
 <a class="no-style" href="/gallery/Stripes"><h1>Custom Pinstriping</h1></a>
 
 <p>All Pinstriping is free hand, not masked, a true, old-school quality. 
