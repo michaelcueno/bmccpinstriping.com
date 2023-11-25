@@ -1,4 +1,4 @@
-$(function() {
+$(document).ready(() => {
     // Stick the #nav to the top of the window
     var nav = $('#site-nav-main');
     var navHomeY = nav.offset().top;
