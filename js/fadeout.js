@@ -7,6 +7,6 @@ $(document).ready(() => {
 
   // Hide the popover after 2 seconds
   setTimeout(function() {
-   popover.classList.add('fade-out');
+   // popover.classList.add('fade-out');
   }, 2000);
 });

@@ -55,12 +55,21 @@ $header-background:  "/images/background.jpg";
 .logo-svg-container {
   display: flex;
   flex-wrap: nowrap;
+  width: 90%
 }
 
 .logo-container {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+}
 
+.popover {
+  display: flex;
+  justify-content: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -68,9 +77,6 @@ $header-background:  "/images/background.jpg";
   height: 100%;
   background-color: rgba(255, 255, 255, 1);
   color: #fff;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 .logo {
