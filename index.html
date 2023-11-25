@@ -39,6 +39,9 @@ $(document).ready(() => {
   // Hide the popover after 2 seconds
   setTimeout(function() {
    popover.classList.add('fade-out');
+    setTimeout(() => {
+      popover.style.display = 'none';
+    }, 400);
   }, 2000);
 });
 </script>
